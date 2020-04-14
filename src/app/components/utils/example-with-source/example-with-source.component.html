@@ -9,10 +9,10 @@
         <mat-tab label="TS">
             <div [id]="rootDomIDSRC"></div>
         </mat-tab>
-        <mat-tab label="HTML">
+        <mat-tab label="HTML" *ngIf="!state.emptyHtml">
             <div [id]="rootDomIDHTML"></div>
         </mat-tab>
-        <mat-tab label="CSS">
+        <mat-tab label="CSS" *ngIf="!state.emptyCss">
             <div [id]="rootDomIDCSS"></div>
         </mat-tab>
     </mat-tab-group>
