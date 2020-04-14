@@ -43,11 +43,19 @@ export class ExampleWithSourceComponent implements OnInit {
   }
 
   state = { 
-    hidden: true 
+    hidden: true,
+    emptyHtml: true,
+    emptyCss: true
   };
 
   toggle() {
     this.state.hidden = !this.state.hidden;
+    if (this.html != "") {
+      this.state.emptyHtml = false;
+    }
+    if (this.css != "") {
+      this.state.emptyCss = false;
+    }
     this.tabGroup.selectedIndex = 0;
     this.tabGroup.realignInkBar();
     this.render();
