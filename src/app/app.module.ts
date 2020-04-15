@@ -142,6 +142,7 @@ import { ChartConfigComponentsComponent } from './routes/chart-config-components
 import { ExampleWithSourceComponent } from './components/utils/example-with-source/example-with-source.component';
 import { DynamicMeasureComponent } from './components/dynamic-measure/dynamic-measure.component';
 import { DynamicMeasureComponentComponent } from './routes/dynamic-measure-component/dynamic-measure-component.component';
+import { AttributeElementComponent } from './components/attribute-element/attribute-element.component'
 
 @NgModule({
     imports: [
@@ -286,6 +287,7 @@ import { DynamicMeasureComponentComponent } from './routes/dynamic-measure-compo
         ExampleWithSourceComponent,
         DynamicMeasureComponent,
         DynamicMeasureComponentComponent,
+        AttributeElementComponent
 
         
     ],
@@ -386,7 +388,8 @@ import { DynamicMeasureComponentComponent } from './routes/dynamic-measure-compo
         VisualizationPieChartByUriComponent,
         VisualizationDonutChartByUriComponent,
         VisualizationBulletChartByUriComponent,
-        DynamicMeasureComponent
+        DynamicMeasureComponent,
+        AttributeElementComponent
     ]
 })
 

@@ -1,0 +1,12 @@
+<div>
+    <button class="gd-button gd-button-secondary s-show-more-filters-button" (click)="loadMore()" (disabled)="disabled" >
+        More
+    </button>
+    <h2>validElements</h2>
+    <p><span>isLoading:</span><span>{{isLoading? isLoading: "true"}}</span></p>
+    <p><span>offset:</span><span>{{offset? offset: 0}}</span></p>
+    <p><span>count:</span><span>{{count? count: 0}}</span></p>
+    <p><span>total:</span><span>{{total? total: 0}}</span></p>
+    <p><span>nextOffset:</span><span>{{nextOffset? nextOffset: 0}}</span></p>
+</div>
+<div class="attribute-filter-element" [id]="rootDomID"></div>
