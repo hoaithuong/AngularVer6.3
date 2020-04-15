@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-sm-6 offset-sm-3">
                 <alert></alert>
-                <router-outlet></router-outlet>
+                <router-outlet (activate)="onActivate($event)"></router-outlet>
             </div>
         </div>
     </div>

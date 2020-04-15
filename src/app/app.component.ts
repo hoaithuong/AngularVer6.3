@@ -31,4 +31,9 @@ export class AppComponent {
         this.router.navigate(['/login']);
         this.isLogged = false;
     }
+
+    onActivate(event) {
+        window.scroll(0,0);
+    }
+    
 }
