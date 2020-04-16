@@ -77,8 +77,7 @@ export class LineChartComponent implements OnInit, OnDestroy, OnChanges, AfterVi
       segmentBy: this.segmentBy,
       filters: this.filterLocationResort,
       sortBy: this.sortBy,
-      config: this.xconfig,
-      locale: "ja-JP"
+      config: this.xconfig
     };
   }
 

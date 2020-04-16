@@ -10,10 +10,8 @@ import { projectId, saveAsDashboard } from '../../../utils/fixtures.js';
 
 export class SaveAsDashboardComponent implements OnInit {
   public showMyMessage = false;
-  loading = false;
   
   onClick = () => {
-    this.loading = true;
     SDK.mdExt.saveDashboardAs(
       projectId, 
       saveAsDashboard, 
@@ -24,8 +22,7 @@ export class SaveAsDashboardComponent implements OnInit {
       }
     );
     setTimeout(() => {
-      this.showMyMessage = true,
-      this.loading = false
+      this.showMyMessage = true
     }, 5000);
     this.autoCloseMessage();
   }
@@ -33,9 +30,8 @@ export class SaveAsDashboardComponent implements OnInit {
   autoCloseMessage() {
     setTimeout(() => {
       this.showMyMessage = false;
-      this.loading = false;
     }, 10000)
-    if (this.showMyMessage && this.loading == false) return
+    if (this.showMyMessage ) return
   }
 
   ngOnInit() {

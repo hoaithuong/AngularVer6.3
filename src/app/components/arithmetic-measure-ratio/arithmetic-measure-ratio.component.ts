@@ -27,7 +27,7 @@ interface ArithmeticMeasuresRatioProps {
 
 @Component({
   selector: 'app-arithmetic-measures-ratio',
-  template: '<div class="arithmetic-measures-ratio" style="height:300px" [id]="rootDomID"></div>',
+  template: '<div class="arithmetic-measures-ratio" style="height:200px" [id]="rootDomID"></div>',
 })
 export class ArithmeticMeasuresRatioComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
   @Input() totals: any[];

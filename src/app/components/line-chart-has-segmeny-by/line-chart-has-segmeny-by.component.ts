@@ -70,8 +70,7 @@ export class LineChartHasSegmentByComponent implements OnInit, OnDestroy, OnChan
       segmentBy: this.xSegmentBy,
       filters: this.filterLocationResort,
       sortBy: this.sortBy,
-      config: this.xconfig,
-      locale: "ja-JP"
+      config: this.xconfig
     };
   }
 

@@ -79,7 +79,6 @@ export class AreaChartComponent implements OnInit, OnDestroy, OnChanges, AfterVi
       filters: this.filterLocationResort,
       sortBy: this.sortBy,
       config: this.xconfig,
-      locale: "ja-JP"
     };
   }
   private isMounted(): boolean {

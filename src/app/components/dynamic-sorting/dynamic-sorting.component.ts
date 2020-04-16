@@ -26,7 +26,7 @@ export interface ColumnChartProps {
 
 @Component({
   selector: 'app-dynamic-sorting',
-  template: `<div style ="height:800px"><div class="dynamic-sorting-options" [id]="sortDomID"></div>
+  template: `<div style ="min-height:620px"><div class="dynamic-sorting-options" [id]="sortDomID"></div>
              <div class="sort-column-chart" [id]="rootDomID"></div><div>`,
 })
 

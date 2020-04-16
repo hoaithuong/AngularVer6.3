@@ -82,8 +82,7 @@ export class AreaChartHasColorPaletteComponent implements OnInit, OnDestroy, OnC
       stackBy: this.stackBy,
       filters: this.filters,
       sortBy: this.sortBy,
-      config: this.xconfig,
-      locale: "ja-JP"
+      config: this.xconfig
     };
   }
 

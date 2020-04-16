@@ -32,7 +32,7 @@ export class SortingComponentsComponent implements OnInit {
       css: MeasureSortingExampleComponentCSS
     },
     {
-      title: 'Sorting by Attribute.',
+      title: 'Sorting by Attribute',
       content: 'You can sort data by an attribute value with the attributeSortItem property.',
       for: AttributeSortingExampleComponent,
       ts: AttributeSortingExampleComponentSRC,
