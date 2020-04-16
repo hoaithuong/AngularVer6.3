@@ -14,3 +14,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     border-width: 1px 0px 0px;
     margin: 20px 0px;
 }
+
+.is-selected .mat-list-item-content {
+    border-left : 3px solid #81BEF7;
+    background-color: #F2F2F2;
+
+}

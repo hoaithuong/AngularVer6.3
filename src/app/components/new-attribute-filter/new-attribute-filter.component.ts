@@ -51,7 +51,7 @@ export interface ErrorProps {
 @Component({
   selector: 'app-new-attribute-filter',
   template: `<div class="attribute-filter-new" style="height:50px" [id]="rootDomID"></div>
-  <div class="attribute-filter-new" style="height:500px" [id]="pivotTableRoomDataID"></div>`,
+  <div class="attribute-filter-new" style="height:350px" [id]="pivotTableRoomDataID"></div>`,
 })
 
 export class NewAttributeFilterComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
@@ -90,8 +90,7 @@ export class NewAttributeFilterComponent implements OnInit, OnDestroy, OnChanges
       projectId: projectId,
       fullscreenOnMobile: false,
       onApplyWithFilterDefinition: this.onApplyWithFilterDefinition,
-      filter: this.filter,
-      locale: 'de-DE'
+      filter: this.filter
     };
   }
 
@@ -100,8 +99,7 @@ export class NewAttributeFilterComponent implements OnInit, OnDestroy, OnChanges
       projectId: projectId,
       measures: this.totalSales,
       rows: this.rows,
-      filters: this.filters,
-      locale: 'de-DE'
+      filters: this.filters
     };
   }
 

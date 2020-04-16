@@ -49,7 +49,7 @@ export interface ErrorProps {
 @Component({
   selector: 'app-attribute-filter-definition-by-uri',
   template: `<div class="attribute-filter-definition-by-uri" style="height:50px" [id]="rootAttributeFilterDomID"></div>
-             <div class="attribute-filter-definition-by-uri" style="height:400px" [id]="tableRoomDataID"></div>`,
+             <div class="attribute-filter-definition-by-uri" style="height:350px" [id]="tableRoomDataID"></div>`,
 })
 
 export class AttributeFilterDefinitionByURIComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
@@ -82,7 +82,6 @@ export class AttributeFilterDefinitionByURIComponent implements OnInit, OnDestro
       fullscreenOnMobile: false,
       filter: this.xfilters,
       onApply: this.onApply,
-      locale: 'de-DE'
     };
   }
 
@@ -92,7 +91,6 @@ export class AttributeFilterDefinitionByURIComponent implements OnInit, OnDestro
       measures: this.totalSales,
       rows: this.rows,
       filters: this.filters,
-      locale: 'de-DE'
     };
   }
 

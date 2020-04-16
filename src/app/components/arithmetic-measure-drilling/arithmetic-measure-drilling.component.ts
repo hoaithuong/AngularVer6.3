@@ -29,7 +29,7 @@ interface ArithmeticMeasureDrillingProps {
 
 @Component({
   selector: 'app-arithmetic-measure-drilling',
-  template: '<div class="arithmetic-measure-drilling" style="height:300px" [id]="rootDomID"></div>',
+  template: '<div class="arithmetic-measure-drilling" style="height:200px" [id]="rootDomID"></div>',
 })
 export class ArithmeticMeasureDrillingComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
   @Input() totals: any[];

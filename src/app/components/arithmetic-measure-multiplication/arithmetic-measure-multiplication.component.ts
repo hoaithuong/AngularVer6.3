@@ -26,7 +26,7 @@ interface ArithmeticMeasureMultiplicationProps {
 
 @Component({
   selector: 'app-arithmetic-measures-multiplication',
-  template: '<div class="arithmetic-measures-multiplication" style="height:300px" [id]="rootDomID"></div>',
+  template: '<div class="arithmetic-measures-multiplication" style="height:200px" [id]="rootDomID"></div>',
 })
 export class ArithmeticMeasureMultiplicationComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
   @Input() totals: any[];

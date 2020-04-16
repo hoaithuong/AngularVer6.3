@@ -124,7 +124,6 @@ export class DynamicMeasureComponent implements OnInit {
             afmMeasure: Model.measure(entry.link).format("#,##0"),
           })),
             this.error = null;
-          console.log("this.measureList = " + JSON.stringify(this.measureList[0].link));
           self.render();
         }
       }
