@@ -19,11 +19,17 @@ import  AttributeFilterDefinitionByURIComponentSRC  from '!!raw-loader!../../com
 import  AttributeFilterDefinitionByURIComponentHTML  from '!!raw-loader!../../components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component.html';
 import  AttributeFilterDefinitionByURIComponentCSS  from '!!raw-loader!../../components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component.css';
 
+import { AttributeElementComponent } from '../../components/attribute-element/attribute-element.component';
+import  AttributeElementComponentSRC  from '!!raw-loader!../../components/attribute-element/attribute-element.component.ts';
+import  AttributeElementComponentHTML  from '!!raw-loader!../../components/attribute-element/attribute-element.component.html';
+import  AttributeElementComponentCSS  from '!!raw-loader!../../components/attribute-element/attribute-element.component.css';
+
 @Component({
   selector: 'app-attribute-filter-components',
   templateUrl: './attribut-filter-components.component.html',
   styleUrls: ['./attribut-filter-components.component.css']
 })
+
 export class AttributeFilterComponentsComponent implements OnInit {
   constructor() { }
 
@@ -66,6 +72,17 @@ export class AttributeFilterComponentsComponent implements OnInit {
       ts: AttributeFilterDefinitionByURIComponentSRC,
       html: AttributeFilterDefinitionByURIComponentHTML,
       css: AttributeFilterDefinitionByURIComponentCSS
+    },
+    {
+      title: 'Custom Attribute Filter using Attribute Elements component',
+      description: [
+        `Pass a custom children function to this component to render the returned data using your custom components.`,
+        `The children function will receive isLoading state, possible error state, attribute metadata, paging, attribute values and a loadMore function.`
+      ],
+      for: AttributeElementComponent,
+      ts: AttributeElementComponentSRC,
+      html: AttributeElementComponentHTML,
+      css: AttributeElementComponentCSS
     }
   ]
 
