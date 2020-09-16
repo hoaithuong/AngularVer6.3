@@ -89,21 +89,6 @@ import  PieChartColorMappingComponentSRC  from '!!raw-loader!../../components/pi
 import  PieChartColorMappingComponentHTML  from '!!raw-loader!../../components/pie-chart-color-mapping/pie-chart-color-mapping.component.html';
 import  PieChartColorMappingComponentCSS  from '!!raw-loader!../../components/pie-chart-color-mapping/pie-chart-color-mapping.component.css';
 
-import { BulletChartComponent } from '../../components/bullet-chart/bullet-chart.component';
-import  BulletChartComponentSRC  from '!!raw-loader!../../components/bullet-chart/bullet-chart.component.ts';
-import  BulletChartComponentHTML  from '!!raw-loader!../../components/bullet-chart/bullet-chart.component.html';
-import  BulletChartComponentCSS  from '!!raw-loader!../../components/bullet-chart/bullet-chart.component.css';
-
-import { BulletChartHasAmMeasureComponent } from '../../components/bullet-chart-has-am-measure/bullet-chart-has-am-measure.component';
-import  BulletChartHasAmMeasureComponentSRC  from '!!raw-loader!../../components/bullet-chart-has-am-measure/bullet-chart-has-am-measure.component.ts';
-import  BulletChartHasAmMeasureComponentHTML  from '!!raw-loader!../../components/bullet-chart-has-am-measure/bullet-chart-has-am-measure.component.html';
-import  BulletChartHasAmMeasureComponentCSS  from '!!raw-loader!../../components/bullet-chart-has-am-measure/bullet-chart-has-am-measure.component.css';
-
-import { BulletChartHasMeasureValueFilterComponent } from '../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component';
-import  BulletChartHasMeasureValueFilterComponentSRC  from '!!raw-loader!../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component.ts';
-import  BulletChartHasMeasureValueFilterComponentHTML  from '!!raw-loader!../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component.html';
-import  BulletChartHasMeasureValueFilterComponentCSS  from '!!raw-loader!../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component.css';
-
 @Component({
   selector: 'app-basic-components',
   templateUrl: './basic-components.component.html',
@@ -239,27 +224,6 @@ export class BasicComponentsComponent implements OnInit {
       ts: PieChartColorMappingComponentSRC,
       html: PieChartColorMappingComponentHTML,
       css: PieChartColorMappingComponentCSS
-    },
-    {
-      title: 'Bullet Chart',
-      for: BulletChartComponent,
-      ts: BulletChartComponentSRC,
-      html: BulletChartComponentHTML,
-      css: BulletChartComponentCSS
-    },
-    {
-      title: 'Bullet Chart Has AM Measure, PoP measure and Drilling',
-      for: BulletChartHasAmMeasureComponent,
-      ts: BulletChartHasAmMeasureComponentSRC,
-      html: BulletChartHasAmMeasureComponentHTML,
-      css: BulletChartHasAmMeasureComponentCSS
-    },
-    {
-      title: 'Bullet Chart has measure value filter',
-      for: BulletChartHasMeasureValueFilterComponent,
-      ts: BulletChartHasMeasureValueFilterComponentSRC,
-      html: BulletChartHasMeasureValueFilterComponentHTML,
-      css: BulletChartHasMeasureValueFilterComponentCSS
     }
   ]
 

@@ -9,11 +9,6 @@ import  AttributeFilterExampleComponentSRC  from '!!raw-loader!../../components/
 import  AttributeFilterExampleComponentHTML  from '!!raw-loader!../../components/attribute-filter-example/attribute-filter-example.component.html';
 import  AttributeFilterExampleComponentCSS  from '!!raw-loader!../../components/attribute-filter-example/attribute-filter-example.component.css';
 
-import { NewAttributeFilterComponent } from '../../components/new-attribute-filter/new-attribute-filter.component';
-import  NewAttributeFilterComponentSRC  from '!!raw-loader!../../components/new-attribute-filter/new-attribute-filter.component.ts';
-import  NewAttributeFilterComponentHTML  from '!!raw-loader!../../components/new-attribute-filter/new-attribute-filter.component.html';
-import  NewAttributeFilterComponentCSS  from '!!raw-loader!../../components/new-attribute-filter/new-attribute-filter.component.css';
-
 import { AttributeFilterDefinitionByURIComponent } from '../../components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component';
 import  AttributeFilterDefinitionByURIComponentSRC  from '!!raw-loader!../../components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component.ts';
 import  AttributeFilterDefinitionByURIComponentHTML  from '!!raw-loader!../../components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component.html';
@@ -56,14 +51,6 @@ export class AttributeFilterComponentsComponent implements OnInit {
       ts: AttributeFilterExampleComponentSRC,
       html: AttributeFilterExampleComponentHTML,
       css: AttributeFilterExampleComponentCSS
-    },
-    {
-      title: 'Attribute filter example using new onApplyWithFilterDefinition',
-      description: [],
-      for: NewAttributeFilterComponent,
-      ts: NewAttributeFilterComponentSRC,
-      html: NewAttributeFilterComponentHTML,
-      css: NewAttributeFilterComponentCSS
     },
     {
       title: 'Attribute filter example defined by filter definition, including selection',

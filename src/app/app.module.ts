@@ -84,12 +84,7 @@ import { VisualizationPieChartByIdentifierComponent } from './visualizations/vis
 import { VisualizationDonutChartByUriComponent } from './visualizations/visualization-donut-chart-by-uri/visualization-donut-chart-by-uri.component';
 import { VisualizationPieChartByUriComponent } from './visualizations/visualization-pie-chart-by-uri/visualization-pie-chart-by-uri.component'
 import { AreaChartHasColorPaletteComponent } from './components/area-chart-has-color-palette/area-chart-has-color-palette.component';
-import { NewAttributeFilterComponent } from './components/new-attribute-filter/new-attribute-filter.component';
 import { AttributeFilterDefinitionByURIComponent } from './components/attribute-filter-definition-by-uri/attribute-filter-definition-by-uri.component';
-import { DateFilterConfigComponent } from './components/date-filter-config/date-filter-config.component';
-import { DateFilterComponent } from './routes/date-filter/date-filter.component';
-import { DateFilterConfigExampleComponent } from './components/date-filter-config-example/date-filter-config-example.component';
-import { DateFilterVisComponent } from './visualizations/visualization-date-filter/visualization-date-filter.component';
 import { AdvancedUseCasesComponent } from './routes/advanced-use-cases/advanced-use-cases.component';
 import { GlobalFiltersComponent } from './routes/global-filters/global-filters.component';
 import { GlobalFiltersExampleComponent } from './components/global-filters-example/global-filters-example.component';
@@ -100,21 +95,8 @@ import { VisualizationByUriComponent } from './routes/visualization-by-uri/visua
 import { VisualizationByIdentifierComponent } from './routes/visualization-by-identifier/visualization-by-identifier.component';
 import { VisualizationComponent } from './routes/visualization-components/visualization.component';
 import { VisualizationBulletChartByIdentifierComponent } from './visualizations/visualization-bullet-chart-by-identifier/visualization-bullet-chart-by-identifier.component';
-import { BulletChartComponent } from './components/bullet-chart/bullet-chart.component';
-import { BulletChartHasAmMeasureComponent } from './components/bullet-chart-has-am-measure/bullet-chart-has-am-measure.component';
-import { BulletChartHasMeasureValueFilterComponent } from './components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component';
 import { ResponsiveExampleComponent } from './components/responsive-example/responsive-example.component';
 import { PivotTableSizingComponent } from './components/pivot-table-sizing/pivot-table-sizing.component';
-import { MeasureValueFilterExamplesComponent } from './components/measure-value-filter-examples/measure-value-filter-examples.component';
-import { MeasureValueFilterComponent } from './routes/measure-value-filter/measure-value-filter.component';
-import { MeasureValueFilterShownInPercentComponent } from './components/measure-value-filter-shown-in-percent/measure-value-filter-shown-in-percent.component';
-import { MeasureValueFilterStackTo100PercentComponent } from './components/measure-value-filter-stack-to100-percent/measure-value-filter-stack-to100-percent.component';
-import { MeasureValueFilterFormattedInPercentComponent } from './components/measure-value-filter-formatted-in-percent/measure-value-filter-formatted-in-percent.component';
-import { FilterByMeasureValueComponent } from './routes/filter-by-measure-value/filter-by-measure-value.component';
-import { MeasureValueFilterComponentComponent } from './routes/measure-value-filter-component/measure-value-filter-component.component';
-import { MeasureValueFilterDropdownComponent } from './components/measure-value-filter-dropdown/measure-value-filter-dropdown.component';
-import { MeasureValueFilterRatioDropdownComponent } from './components/measure-value-filter-ratio-dropdown/measure-value-filter-ratio-dropdown.component';
-import { MeasureValueFilterPercentDropdownComponent } from './components/measure-value-filter-percent-dropdown/measure-value-filter-percent-dropdown.component';
 import { ExampleWithExportComponent } from './components/utils/example-with-export/example-with-export.component';
 import { PivotTableExportExampleComponent } from './components/pivot-table-export-example/pivot-table-export-example.component';
 import { HeadlineExportExampleComponent } from './components/headline-export-example/headline-export-example.component';
@@ -229,12 +211,7 @@ import { AttributeElementComponent } from './components/attribute-element/attrib
         VisualizationDonutChartByUriComponent,
         VisualizationPieChartByUriComponent,
         HeaderComponent,
-        NewAttributeFilterComponent,
         AttributeFilterDefinitionByURIComponent,
-        DateFilterConfigComponent,
-        DateFilterComponent,
-        DateFilterConfigExampleComponent,
-        DateFilterVisComponent,
         AdvancedUseCasesComponent,
         GlobalFiltersComponent,
         GlobalFiltersExampleComponent,
@@ -245,24 +222,11 @@ import { AttributeElementComponent } from './components/attribute-element/attrib
         VisualizationByIdentifierComponent,
         VisualizationComponent ,
         VisualizationBulletChartByIdentifierComponent ,
-        BulletChartComponent ,
-        BulletChartHasAmMeasureComponent ,
-        BulletChartHasMeasureValueFilterComponent,
         ResponsiveExampleComponent,
         ResponsiveChartComponent,
         SaveAsDashboardComponent ,
         SaveAsDashboardComponentComponent,
         PivotTableSizingComponent,    
-        MeasureValueFilterExamplesComponent ,
-        MeasureValueFilterComponent,
-        MeasureValueFilterShownInPercentComponent,
-        MeasureValueFilterStackTo100PercentComponent,
-        MeasureValueFilterFormattedInPercentComponent,
-        FilterByMeasureValueComponent,
-        MeasureValueFilterComponentComponent,
-        MeasureValueFilterDropdownComponent,
-        MeasureValueFilterRatioDropdownComponent ,
-        MeasureValueFilterPercentDropdownComponent,
         ExampleWithExportComponent,
         PivotTableExportExampleComponent ,
         HeadlineExportExampleComponent ,
@@ -319,9 +283,6 @@ import { AttributeElementComponent } from './components/attribute-element/attrib
         BubbleChartComponent,
         DualColumnChartComponent,
         PieChartColorMappingComponent,
-        BulletChartComponent,
-        BulletChartHasAmMeasureComponent,
-        BulletChartHasMeasureValueFilterComponent,
         ArithmeticMeasuresRatioComponent,
         ArithmeticMeasureChangeComponent,
         ArithmeticMeasureSumComponent,
@@ -329,16 +290,12 @@ import { AttributeElementComponent } from './components/attribute-element/attrib
         ArithmeticMeasureDrillingComponent,
         AttributeFilterComponent,
         AttributeFilterExampleComponent,
-        NewAttributeFilterComponent,
         AttributeFilterDefinitionByURIComponent,
         BarchartConfigComponent,
         DualAxisColumnChartComponent,
         DualAxisBarChartComponent,
         ColumnChartConfigComponent,
         PieChartWithColorMappingComponent,
-        DateFilterConfigComponent,
-        DateFilterConfigExampleComponent,
-        DateFilterVisComponent,
         DatePickerComponent,
         MonthPickerComponent,
         TableDrillExampleComponent,
@@ -348,14 +305,7 @@ import { AttributeElementComponent } from './components/attribute-element/attrib
         PivotTableExportExampleComponent,
         TableExportExampleComponent,
         VisualizationColumnChartExportExampleComponent,
-        MeasureValueFilterExamplesComponent,
-        MeasureValueFilterShownInPercentComponent,
-        MeasureValueFilterStackTo100PercentComponent,
-        MeasureValueFilterFormattedInPercentComponent,
         GlobalFiltersExampleComponent,
-        MeasureValueFilterDropdownComponent,
-        MeasureValueFilterRatioDropdownComponent,
-        MeasureValueFilterPercentDropdownComponent,
         ParentFilterExampleComponent,
         PivotTableComponent,
         PivotTableTotalsComponent,

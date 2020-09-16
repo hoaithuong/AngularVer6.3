@@ -11,15 +11,12 @@ import { ArithmeticMeasureComponentsComponent } from './routes/arithmetic-measur
 import { DrillingComponentsComponent } from './routes/drilling-components/drilling-components.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { DateFilterComponent } from './routes/date-filter/date-filter.component';
 import { GlobalFiltersComponent } from './routes/global-filters/global-filters.component';
 import { ParentFilterComponent } from './routes/parent-filter/parent-filter.component';
 import { VisualizationByUriComponent } from './routes/visualization-by-uri/visualization-by-uri.component';
 import { VisualizationByIdentifierComponent } from './routes/visualization-by-identifier/visualization-by-identifier.component';
 import { ResponsiveChartComponent } from './routes/responsive-chart/responsive-chart.component';
 import { SaveAsDashboardComponentComponent } from './routes/save-as-dashboard-component/save-as-dashboard-component.component';
-import { MeasureValueFilterComponentComponent } from './routes/measure-value-filter-component/measure-value-filter-component.component';
-import { FilterByMeasureValueComponent } from './routes/filter-by-measure-value/filter-by-measure-value.component';
 import { ExportChartComponent } from './routes/export-chart/export-chart.component';
 import { ExportHeadlineComponent } from './routes/export-headline/export-headline.component';
 import { ExportPivotTableComponent } from './routes/export-pivot-table/export-pivot-table.component';
@@ -40,10 +37,7 @@ const appRoutes: Routes = [
     { path: 'drilling', component: DrillingComponentsComponent },
     { path: 'visualization/visualization-by-uri', component: VisualizationByUriComponent },
     { path: 'visualization/visualization-by-identifier', component: VisualizationByIdentifierComponent },
-    { path: 'measure-value-filter/filter-by-measure-value', component: FilterByMeasureValueComponent },
-    { path: 'measure-value-filter/measure-value-filter-component', component: MeasureValueFilterComponentComponent },
     { path: 'arithmetic-measures', component: ArithmeticMeasureComponentsComponent },
-    { path: 'date-filter-component', component: DateFilterComponent },
     { path: 'advanced/global-filters', component: GlobalFiltersComponent},
     { path: 'advanced/parent-filter', component: ParentFilterComponent},
     { path: 'advanced/responsive', component: ResponsiveChartComponent},

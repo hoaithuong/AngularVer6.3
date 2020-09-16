@@ -19,7 +19,7 @@ interface AttributeFilterProps {
   projectId: any;
   identifier: any;
   fullscreenOnMobile: boolean;
-  onApply: any;
+  onApply: (...params: any[]) => any; // TODO: make the types more specific (FET-282)
 }
 
 interface AttributeFilterByURIProps {
@@ -40,7 +40,7 @@ interface AttributeFilterOnApplyWithFilterDefinitionProps {
   projectId: any;
   filter: any;
   fullscreenOnMobile: boolean;
-  onApplyWithFilterDefinition: any;
+  onApply: (...params: any[]) => any; // TODO: make the types more specific (FET-282)
 }
 
 @Component({
@@ -168,7 +168,7 @@ export class AttributeFilterComponent implements OnInit, OnDestroy, OnChanges, A
     return {
       projectId: projectId,
       filter: this.filter,
-      onApplyWithFilterDefinition: this.onApplyWithFilterDefinition,
+      onApply: this.onApplyWithFilterDefinition,
       fullscreenOnMobile: false,
     };
   }
